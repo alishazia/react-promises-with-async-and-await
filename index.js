@@ -22,7 +22,7 @@ const setTimer = duration => {
       resolve('Done!');
     }, duration);
   });
-  return promise;
+  return promise; 
 };
 
 async function trackUserHandler() {
